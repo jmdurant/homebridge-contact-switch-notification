@@ -1,17 +1,17 @@
 {
-  "name": "homebridge-motion-switch",
+  "name": "homebridge-contact-switch-notification",
   "version": "0.0.1",
-  "description": "Motion Switch plugin for homebridge: https://github.com/nfarina/homebridge",
+  "description": "Contact-Switch Notification plugin for homebridge: https://github.com/nfarina/homebridge",
   "license": "ISC",
   "keywords": [
     "homebridge-plugin"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/aaronpearce/homebridge-motion-switch.git"
+    "url": "git://github.com/jdtsmith/homebridge-contact-switch-notification.git"
   },
   "bugs": {
-    "url": "http://github.com/aaronpearce/homebridge-motion-switch/issues"
+    "url": "http://github.com/jdtsmith/homebridge-contact-switch-notification/issues"
   },
   "engines": {
     "node": ">=0.12.0",
