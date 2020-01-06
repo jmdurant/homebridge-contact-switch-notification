@@ -29,7 +29,7 @@ Here `name` is the name of the overall accessory, with two services (a switch to
 
 Once added to Homekit, you will need to turn on Notifications for the fake contact sensor you just added, and possibly change it to a door, windows, etc. (see e.g. [this note](https://github.com/jvmahon/homebridge-homeseer/wiki/Contact-Sensor-Icon-Type-(Door,-Window,-etc.))).
 
-#### Example
+#### Example: Door Was Left Open!!!
 
 As an example non-trivial use of this notifier: we'll set up notification if a _door is left open for more than one minute_ (a common occurrence in my household!), notifying again if and when it (finally!) gets closed. This takes 3 automations to make work, and another dummy switch.
 
