@@ -1,6 +1,6 @@
 ## Homebridge Contact Switch Notification
 
-A common need in Homekit is for push notifications. The Home app natively supports push notifications for Blinds & Windows, Doors & Locks, Sensors (e.g. notion), and Security devices.  But, aside from time of day and people present, these notifications are all-or-nothing, no other conditions allowed. And you can't get notified about changes to other Homekit accessories, like switches, etc. 
+A common need in Homekit is for push notifications. The Home app natively supports push notifications for Blinds & Windows, Doors & Locks, Sensors (e.g. motion, other contact sensors), and Security devices.  But, aside from time of day and people present, these notifications are all-or-nothing, no other conditions allowed. And you can't get notified about changes to other Homekit accessories, like switches, etc. 
 
 What if you want to be notified if a pair of doors both stay open for more than 2 minutes after 3pm?  Impossible, right?  The solution is to create a _dummy_ notification accessory (a fake door!) that can be subscribed to for push notifications, from the front page of the Home app, and use automations to toggle it at the right time. 
 
