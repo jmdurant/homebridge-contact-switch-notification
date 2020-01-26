@@ -56,7 +56,6 @@ ContactSwitchNotificationAccessory.prototype.trigger = function() {
       this.contactSensorService.setCharacteristic(Characteristic.ContactSensorState,this.contactSensorState);
     }
   }
-      
 }
 
 ContactSwitchNotificationAccessory.prototype.resetSensors = function(self) {
