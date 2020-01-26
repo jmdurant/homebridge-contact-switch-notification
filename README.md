@@ -1,4 +1,5 @@
 ## Homebridge Contact Switch Notification
+Summary: Provides a switch which can be toggled by automations, which will open/close a (fake) contact sensor when toggled.  The sensor can be subscribed to for notifications. 
 
 A common need in Homekit is for push notifications. The Home app natively supports push notifications for Blinds & Windows, Doors & Locks, Sensors (e.g. motion, other contact sensors), and Security devices.  But, aside from time of day and people present, these notifications are all-or-nothing, no other conditions allowed. And you can't get notified about changes to other Homekit accessories, like switches, etc. 
 
